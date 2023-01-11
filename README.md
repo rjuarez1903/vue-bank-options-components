@@ -1,4 +1,4 @@
-# amazing-events-v2
+# vue-options-first-components
 
 ## Project setup
 ```

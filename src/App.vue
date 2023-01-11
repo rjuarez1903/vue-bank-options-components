@@ -1,21 +1,30 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Title text="Amazing 2.0" />
+  <Account />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import Title from './components/Title.vue';
+import Account from './components/Account.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Title, Account
   }
 }
 </script>
 
 <style>
+
+:root {
+    --black: #1c1c1c
+}
+
 #app {
+  min-height: 100vh;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
